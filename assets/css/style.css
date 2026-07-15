@@ -273,19 +273,20 @@ h1 {
 .footer-sun { width: 14px; height: 14px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 5px rgba(238,155,0,.14); }
 
 [data-reveal] {
-  transition: opacity 650ms ease, transform 650ms cubic-bezier(.2,.85,.25,1);
+  animation: content-in 650ms cubic-bezier(.2,.85,.25,1) both;
 }
 
-.reveal-ready [data-reveal] {
-  opacity: 0;
-  transform: translateY(18px);
-}
-
-.reveal-ready [data-reveal].is-visible { opacity: 1; transform: translateY(0); }
+.page-card:nth-child(2) { animation-delay: 70ms; }
+.page-card:nth-child(3) { animation-delay: 140ms; }
 
 @keyframes sunrise-in {
   from { opacity: 0; transform: translate(-50%, -34px) scale(.96); }
   to { opacity: .58; transform: translate(-50%, 0) scale(1); }
+}
+
+@keyframes content-in {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 @media (max-width: 760px) {

@@ -1,5 +1,3 @@
-document.documentElement.classList.add("js");
-
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const revealItems = document.querySelectorAll("[data-reveal]");
 
@@ -15,6 +13,7 @@ if (reducedMotion || !("IntersectionObserver" in window)) {
     });
   }, { threshold: 0.12 });
 
+  document.documentElement.classList.add("reveal-ready");
   revealItems.forEach((item, index) => {
     item.style.transitionDelay = `${Math.min(index * 70, 210)}ms`;
     observer.observe(item);
@@ -23,4 +22,3 @@ if (reducedMotion || !("IntersectionObserver" in window)) {
 
 const year = document.querySelector("#year");
 if (year) year.textContent = new Date().getFullYear();
-

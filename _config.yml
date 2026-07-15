@@ -1,0 +1,7 @@
+title: Good Morning
+description: Legal information and support for the Good Morning app.
+url: "https://christopherambrose.github.io"
+baseurl: "/good-morning-legal"
+markdown: kramdown
+permalink: pretty
+

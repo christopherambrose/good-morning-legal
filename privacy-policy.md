@@ -1,4 +1,12 @@
-# Good Morning Privacy Policy
+---
+layout: default
+title: Privacy Policy
+description: The Good Morning app privacy policy.
+category: Legal
+permalink: /privacy-policy/
+---
+
+# Privacy Policy
 
 Effective Date: July 13, 2026
 

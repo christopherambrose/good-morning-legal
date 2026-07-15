@@ -1,4 +1,12 @@
-# Good Morning Terms of Use
+---
+layout: default
+title: Terms of Use
+description: The Good Morning app terms of use.
+category: Legal
+permalink: /terms-of-use/
+---
+
+# Terms of Use
 
 Effective Date: [Effective Date]
 

@@ -8,14 +8,14 @@ permalink: /privacy-policy/
 
 # Privacy Policy
 
-Effective Date: July 13, 2026
+Effective Date: July 15, 2026
 
 Good Morning ("Good Morning," "we," "us," or "our") is a mobile app designed to help users start their day with a morning routine, wake-up reminders, app blocking, caffeine timing, and simple wellness insights.
 
 This Privacy Policy explains what information the app collects or accesses, how it is used, where it is stored, and when it may be shared.
 
 Developer: Christopher Ambrose  
-Contact:  goodmorningroutineapp@gmail.com
+Contact: goodmorningroutineapp@gmail.com
 
 ## Information We Collect or Access
 
@@ -123,12 +123,6 @@ If you use the morning brief feature, Good Morning may request access to your ca
 
 Based on the current app code, calendar event information is used for display in the app and is not stored in your Good Morning profile or synced to Firebase.
 
-### Location and Weather
-
-Good Morning may request When-In-Use location access to show current weather in your morning brief. The app uses your device location to request current weather from Apple's WeatherKit service.
-
-Based on the current app code, weather information is displayed in the app and is not stored in your Good Morning profile or synced to Firebase.
-
 ### Apple Health
 
 Good Morning can connect to Apple Health to read sleep analysis data so the app can show a sleep summary and help you understand how rest may relate to your mornings. The app also requests permission to read mindful sessions and share mindful sessions.
@@ -137,11 +131,17 @@ Based on the current app code, Good Morning reads sleep data to produce a short 
 
 Apple Health data is handled under Apple's HealthKit rules. You can manage Health permissions in the Apple Health app or iOS Settings.
 
-### Subscription Status
+### Subscriptions and Purchases
 
-The current app code includes fields for premium status and premium expiration date. If subscriptions are enabled, Good Morning may store whether premium access is unlocked and when that access expires.
+Good Morning offers a paid subscription called **Good Morning Unlimited**. Purchases are processed by Apple through the App Store. We use **RevenueCat** to manage subscription status and entitlements.
 
-Payment processing details depend on the final subscription implementation and must be completed before publication. In-app purchases and subscriptions on iOS are handled by Apple. If RevenueCat is added, RevenueCat's role and data handling must be added to this policy before publishing.
+We may store or receive:
+
+- Whether premium access is unlocked
+- When premium access expires
+- Purchase and entitlement information associated with your account through RevenueCat and Apple
+
+We do not receive or store your full payment card details. Apple handles payment processing.
 
 ## How We Use Information
 
@@ -154,10 +154,12 @@ We use the information described above to:
 - Block selected apps during your morning routine
 - Track routine completion, streaks, and morning scores
 - Show insights about your routine, mood, blocking, wake consistency, and sleep summary
-- Display weather and calendar information in your morning brief
+- Display calendar information in your morning brief
 - Show Live Activity progress
-- Manage subscription access, if subscriptions are enabled
+- Manage subscription access and restore purchases
 - Maintain and improve app functionality
+
+We do not sell your personal information and do not use your data for cross-app tracking or third-party advertising.
 
 ## Where Information Is Stored
 
@@ -183,7 +185,7 @@ Synced to Firebase Firestore:
 - Streaks
 - Blocking-enabled setting and unlock condition
 - Caffeine timer enabled setting and delay
-- Premium status and expiration date, if used
+- Premium status and expiration date
 - Account email
 - Morning session history
 - Mood check-ins attached to morning session history
@@ -195,9 +197,9 @@ Handled by third-party or Apple services:
 - Apple notifications and alarms
 - Apple Screen Time app-blocking controls
 - Apple Health data
-- Apple WeatherKit weather requests
 - Apple Calendar access
-- Apple in-app purchase processing, if subscriptions are enabled
+- Apple in-app purchase processing
+- RevenueCat subscription entitlement and purchase status
 
 ## Third-Party Services
 
@@ -207,17 +209,16 @@ Good Morning uses or includes the following services or SDKs:
 - Firebase Authentication
 - Firebase Firestore
 - Google Sign-In
+- RevenueCat
 - Apple HealthKit
-- Apple WeatherKit
 - Apple EventKit / Calendar
 - Apple UserNotifications
 - Apple AlarmKit
 - Apple ActivityKit / Live Activities
 - Apple Family Controls, Managed Settings, and Screen Time frameworks
-- Apple In-App Purchase, if subscriptions are enabled
-- [RevenueCat, if added before launch]
+- Apple In-App Purchase
 
-The app includes Firebase and Google package dependencies. The bundled Firebase configuration indicates that Firebase Analytics and ads are not enabled in the configuration file reviewed during the audit. You should confirm Firebase console settings before publishing this policy.
+The bundled Firebase configuration indicates that Firebase Analytics and ads are not enabled. Confirm Firebase console settings remain consistent with this policy.
 
 ## How We Share Information
 
@@ -227,8 +228,8 @@ We share information only as needed to operate the app, including:
 
 - With Firebase, for authentication and synced profile and session storage
 - With Google, if you choose Google Sign-In
-- With Apple services, when you use Apple permissions such as Screen Time, notifications, alarms, Health, Calendar, WeatherKit, Live Activities, or in-app purchases
-- With RevenueCat, if RevenueCat is added for subscription management before launch
+- With RevenueCat, for subscription management and entitlements
+- With Apple services, when you use Apple permissions such as Screen Time, notifications, alarms, Health, Calendar, Live Activities, or in-app purchases
 
 We may also disclose information if required by law or to protect the rights, safety, or security of users, the app, or others.
 
@@ -245,20 +246,23 @@ You can manage many permissions through iOS Settings, including:
 - Notifications
 - Alarms, where available
 - Screen Time / Family Controls
-- Location
 - Calendar
 - Apple Health
 - Live Activities
 
-You can also sign out from the app.
+You can sign out from the app.
 
-The current app code does not include an in-app account deletion or data export feature. To request deletion or export of account-related data, contact us at goodmorningroutineapp@gmail.com. Account deletion and data export procedures must be finalized before this policy is published.
+You can delete your account in Settings. When you delete your account, Good Morning deletes your Firebase account, your Firestore profile and synced session data, and local app data for the signed-in account on that device.
+
+To request an export of your account-related data, contact us at goodmorningroutineapp@gmail.com. We will respond within a reasonable time.
+
+You can manage or cancel subscriptions in your Apple ID account settings (Settings → Apple ID → Subscriptions). Deleting the app or your Good Morning account does not automatically cancel an App Store subscription.
 
 ## Data Retention
 
 Good Morning keeps your account information, routine settings, synced session history, and related app data for as long as your account remains active or as needed to provide the app.
 
-If you delete your account in the app, Good Morning deletes your Firebase account, your Firestore profile and synced session data, and local app data for the signed-in account on that device. Some information may remain temporarily in backups, logs, or records where required for security, fraud prevention, legal compliance, or legitimate business purposes.
+If you delete your account in the app, Good Morning deletes your Firebase account, your Firestore profile and synced session data, and local app data for the signed-in account on that device. Some information may remain temporarily in backups, logs, or records where required for security, fraud prevention, legal compliance, or legitimate business purposes. Subscription records retained by Apple or RevenueCat may remain according to their retention practices.
 
 ## Children
 
@@ -268,7 +272,7 @@ If you believe a child has provided information to Good Morning, contact us at g
 
 ## Security
 
-We use service providers such as Firebase to help store and protect account and profile information. No method of electronic storage or transmission is completely secure, and we cannot guarantee absolute security.
+We use service providers such as Firebase and RevenueCat to help store and protect account, profile, and subscription information. No method of electronic storage or transmission is completely secure, and we cannot guarantee absolute security.
 
 ## Changes to This Policy
 
@@ -278,5 +282,5 @@ We may update this Privacy Policy from time to time. If we make changes, we will
 
 If you have questions about this Privacy Policy or your information, contact:
 
-Christopher Ambrose
-goodmorningroutineapp@gmail.com 
+Christopher Ambrose  
+goodmorningroutineapp@gmail.com

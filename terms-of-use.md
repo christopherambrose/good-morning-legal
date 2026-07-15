@@ -33,7 +33,6 @@ Good Morning helps you start your day with a structured morning routine. The App
 - Caffeine delay timer
 - Morning scores, streaks, and insights
 - Mood check-ins
-- Apple Health sleep summaries, if you connect Apple Health
 - Morning brief information such as calendar events, if you grant permission
 
 Good Morning is a habit and wellness support tool. It is not a medical device and does not provide medical advice, diagnosis, or treatment.
@@ -96,9 +95,9 @@ You are responsible for choosing which apps or categories to block. App blocking
 
 Good Morning may use Live Activities to show routine progress or caffeine timer status on supported devices. Live Activities may be affected by your device settings and Apple's system behavior.
 
-### Calendar and Apple Health
+### Calendar
 
-If you grant permission, Good Morning may access your calendar to show your first upcoming event and read Apple Health sleep data to show a sleep summary. These features are optional and can be managed in iOS Settings or Apple Health.
+If you grant permission, Good Morning may access your calendar to show your first upcoming event. This feature is optional and can be managed in iOS Settings.
 
 ## User Content and Routine Data
 
@@ -122,7 +121,7 @@ You agree not to:
 
 ## Wellness Disclaimer
 
-Good Morning is intended to support routines, focus, and morning habits. Information about routines, sleep, mood, caffeine timing, app usage, or wellness is for general informational and habit-building purposes only.
+Good Morning is intended to support routines, focus, and morning habits. Information about routines, mood, caffeine timing, app usage, or wellness is for general informational and habit-building purposes only.
 
 Good Morning does not provide medical advice, diagnosis, treatment, or professional health recommendations. You should consult a qualified health professional before making health-related decisions or if you have medical questions.
 
@@ -142,7 +141,7 @@ You may not copy, distribute, sell, lease, modify, or create derivative works ba
 
 ## Third-Party Services
 
-Good Morning uses third-party and Apple services to operate certain features, including Firebase, Google Sign-In, RevenueCat, Apple Screen Time frameworks, Apple Health, Apple Calendar, Apple notifications, Apple AlarmKit, Apple ActivityKit, and Apple in-app purchases.
+Good Morning uses third-party and Apple services to operate certain features, including Firebase, Google Sign-In, RevenueCat, Apple Screen Time frameworks, Apple Calendar, Apple notifications, Apple AlarmKit, Apple ActivityKit, and Apple in-app purchases.
 
 Your use of those services may also be subject to their own terms and policies.
 
@@ -168,7 +167,7 @@ Your continued use of Good Morning after updated Terms become effective means yo
 
 Good Morning is provided "as is" and "as available." To the fullest extent permitted by law, we disclaim warranties of any kind, whether express, implied, or statutory, including implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
 
-We do not guarantee that the App will be uninterrupted, error-free, secure, or available at any particular time. Alarms, notifications, app blocking, Live Activities, calendar, Health, and subscription features may depend on Apple systems, third-party services, permissions, device settings, and network availability.
+We do not guarantee that the App will be uninterrupted, error-free, secure, or available at any particular time. Alarms, notifications, app blocking, Live Activities, calendar, and subscription features may depend on Apple systems, third-party services, permissions, device settings, and network availability.
 
 ## Limitation of Liability
 

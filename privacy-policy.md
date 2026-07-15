@@ -123,14 +123,6 @@ If you use the morning brief feature, Good Morning may request access to your ca
 
 Based on the current app code, calendar event information is used for display in the app and is not stored in your Good Morning profile or synced to Firebase.
 
-### Apple Health
-
-Good Morning can connect to Apple Health to read sleep analysis data so the app can show a sleep summary and help you understand how rest may relate to your mornings. The app also requests permission to read mindful sessions and share mindful sessions.
-
-Based on the current app code, Good Morning reads sleep data to produce a short sleep summary. The summary may be displayed in Settings or Stats. The app does not store Apple Health sleep samples in its own database.
-
-Apple Health data is handled under Apple's HealthKit rules. You can manage Health permissions in the Apple Health app or iOS Settings.
-
 ### Subscriptions and Purchases
 
 Good Morning offers a paid subscription called **Good Morning Unlimited**. Purchases are processed by Apple through the App Store. We use **RevenueCat** to manage subscription status and entitlements.
@@ -153,7 +145,7 @@ We use the information described above to:
 - Schedule wake alarms and reminders
 - Block selected apps during your morning routine
 - Track routine completion, streaks, and morning scores
-- Show insights about your routine, mood, blocking, wake consistency, and sleep summary
+- Show insights about your routine, mood, blocking, and wake consistency
 - Display calendar information in your morning brief
 - Show Live Activity progress
 - Manage subscription access and restore purchases
@@ -196,7 +188,6 @@ Handled by third-party or Apple services:
 - Google Sign-In authentication data
 - Apple notifications and alarms
 - Apple Screen Time app-blocking controls
-- Apple Health data
 - Apple Calendar access
 - Apple in-app purchase processing
 - RevenueCat subscription entitlement and purchase status
@@ -210,7 +201,6 @@ Good Morning uses or includes the following services or SDKs:
 - Firebase Firestore
 - Google Sign-In
 - RevenueCat
-- Apple HealthKit
 - Apple EventKit / Calendar
 - Apple UserNotifications
 - Apple AlarmKit
@@ -229,13 +219,13 @@ We share information only as needed to operate the app, including:
 - With Firebase, for authentication and synced profile and session storage
 - With Google, if you choose Google Sign-In
 - With RevenueCat, for subscription management and entitlements
-- With Apple services, when you use Apple permissions such as Screen Time, notifications, alarms, Health, Calendar, Live Activities, or in-app purchases
+- With Apple services, when you use Apple permissions such as Screen Time, notifications, alarms, Calendar, Live Activities, or in-app purchases
 
 We may also disclose information if required by law or to protect the rights, safety, or security of users, the app, or others.
 
 ## Health and Wellness Information
 
-Good Morning is intended to support routines, focus, and morning habits. It is not a medical device and does not provide medical advice, diagnosis, or treatment. Any routine, sleep, mood, caffeine, or wellness information shown in the app is for general informational and habit-building purposes only.
+Good Morning is intended to support routines, focus, and morning habits. It is not a medical device and does not provide medical advice, diagnosis, or treatment. Any routine, mood, caffeine, or wellness information shown in the app is for general informational and habit-building purposes only.
 
 Always consult a qualified health professional for medical questions or before making health-related decisions.
 
@@ -247,7 +237,6 @@ You can manage many permissions through iOS Settings, including:
 - Alarms, where available
 - Screen Time / Family Controls
 - Calendar
-- Apple Health
 - Live Activities
 
 You can sign out from the app.

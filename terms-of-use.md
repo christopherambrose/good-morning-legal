@@ -180,9 +180,9 @@ Some jurisdictions do not allow certain limitations of liability, so some of the
 
 ## Governing Law
 
-These Terms are governed by the laws of the State of **[YOUR STATE]**, without regard to conflict of law principles.
+These Terms are governed by the laws of the State of Georgia, without regard to conflict of law principles.
 
-Any dispute arising out of or relating to these Terms or the App shall be resolved exclusively in the state or federal courts located in **[YOUR COUNTY/CITY], [YOUR STATE]**, and you consent to personal jurisdiction in those courts.
+Any dispute arising out of or relating to these Terms or the App shall be resolved exclusively in the state or federal courts located in Rincon, Georgia, and you consent to personal jurisdiction in those courts.
 
 ## Apple App Store Terms
 
